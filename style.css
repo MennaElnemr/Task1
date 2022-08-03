@@ -1,0 +1,46 @@
+#login_button:hover {
+    color: teal;
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+.login {
+    width: 382px;
+    overflow: hidden;
+    margin-top: 200px;
+    margin-left: 420px;
+    padding: 80px;
+    border-radius: 15px;
+    background-color: rgb(59, 77, 240);
+}
+
+.background {
+    background-color: rgb(161, 193, 235);
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #ececec;
+    text-align: center;
+    
+}
+tr:nth-child(even) {
+    background-color: rgb(59, 77, 240);
+    font-size: large;
+    font-style: italic;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(161, 193, 235);
+    font-size: large;
+    font-style: italic;
+}
+
+#title_row {
+    background-color: rgb(255, 255, 255);
+}
